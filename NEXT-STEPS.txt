@@ -1,0 +1,23 @@
+MAROKKANISCHE KOCHKUNST - DEPLOY + GOOGLE STEPS
+
+0. DOMAIN: all canonical/sitemap URLs assume https://www.marokkanische-kochkunst.de
+   If your real domain is different, tell me and I rebuild in 1 minute (or search/replace that string in all files).
+
+1. Upload: unzip, put ALL files/folders at the ROOT of a new GitHub repo, import it in Vercel, add your domain.
+   (index.html, app.js, img/, og/, reise/, rezept/, vercel.json, sitemap.xml, robots.txt, ads.txt ...)
+
+2. MUST FIX BEFORE ADSENSE (Germany/EU law + AdSense rejects placeholders):
+   impressum.html -> replace [Straße und Hausnummer] and [PLZ Ort, Land] with your real address.
+   lizenz.html -> replace the [Bildnachweis] placeholder with photo credits.
+   Also make sure hello@marokkanische-kochkunst.de really receives mail (or change it).
+
+3. AdSense: the site already has your meta tag + ads.txt (same account as Plainfolio, pub-8221947298825158).
+   AdSense > Sites > Add site > enter the domain > "Request review".
+   Do NOT add the ad script yet. After approval: AdSense > Privacy & messaging > create the EU consent message (free),
+   update datenschutz.html (ads/cookies section), then add the ad script.
+
+4. Google indexing: search.google.com/search-console > Add property (URL prefix, https://www....) > verify
+   (upload the HTML file Google gives you to the repo root) > Sitemaps > submit sitemap.xml
+   > URL Inspection > paste each of the 6 URLs > Request indexing.
+
+5. AdSense approval odds: currently 5 recipes + 4 city guides. Add 1 new recipe/week; 10-15 pages is a safer level.
